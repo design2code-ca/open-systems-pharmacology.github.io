@@ -1,0 +1,3 @@
+.team {
+  @include background-image('examples-bg.jpg', $team-background-color);
+}

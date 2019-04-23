@@ -1,0 +1,16 @@
+<section id="team" class="team section">
+  <div class="container">
+    <h2>Core Team</h2>
+    <div class="section_area">
+      <div class="row">
+        <div class="sponsors-container col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+          {% for member in site.team %}
+          <div class="item-list">
+            <div>{{member.title}}</div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -35,4 +35,10 @@ collections:
   publications:
     output: false  
     permalink: /:collection/:name
+  sponsors:
+    output: false  
+    permalink: /:collection/:name
+  team:
+    output: false  
+    permalink: /:collection/:name
   
