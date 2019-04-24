@@ -6,4 +6,15 @@
   display: flex;
   width: 100%;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.sponsor {
+  min-width: 200px;
+  text-align: center;
+  margin: 20px 20px;
+}
+
+.sponsor img {
+  width: 175px;
 }

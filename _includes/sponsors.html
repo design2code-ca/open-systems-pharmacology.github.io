@@ -6,7 +6,9 @@
         <div class="sponsors-container col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
           {% for sponsor in site.sponsors %}
           <div class="item-list">
-            <div>{{sponsor.title}}</div>
+            <div class="sponsor">
+              <img src="{{ sponsor.logo_url }}" />
+            </div>
           </div>
           {% endfor %}
         </div>
