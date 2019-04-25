@@ -3,10 +3,12 @@
     <h2>Core Team</h2>
     <div class="section_area">
       <div class="row">
-        <div class="sponsors-container col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+        <div class="team-container col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
           {% for member in site.team %}
-          <div class="item-list">
-            <div>{{member.title}}</div>
+          <div class="team-member">
+            <img src="{{ member.profile_url }}" />
+            <div class="member-name">{{ member.name }}</div>
+            <div>{{ member.description }}</div>
           </div>
           {% endfor %}
         </div>

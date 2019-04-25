@@ -1,3 +1,23 @@
 .team {
   @include background-image('examples-bg.jpg', $team-background-color);
 }
+
+.team-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+  text-align: center;
+  margin: 20px 20px;
+}
+
+.member-name {
+  margin-top: 16px;
+}

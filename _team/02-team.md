@@ -1,6 +1,6 @@
 ---
-title:  Member 02
+name:  Member 02
 description: > 
-  Some member 02 description
-profile_url: https://randomuser.me/api/portraits/thumb/women/91.jpg
+  Member 02 description
+profile_url: /img/team/02.jpeg
 ---
