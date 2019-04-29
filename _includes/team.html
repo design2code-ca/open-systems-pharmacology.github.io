@@ -1,17 +1,15 @@
 <section id="team" class="team section">
   <div class="container">
     <h2>Core Team</h2>
-    <div class="section_area">
-      <div class="team-row">
-        <div class="team-container wow fadeInLeft delay-05s">
-          {% for member in site.team %}
-          <div class="team-member">
-            <img src="{{ member.profile_url }}" />
-            <div class="member-name">{{ member.name }}</div>
-            <div>{{ member.description }}</div>
-          </div>
-          {% endfor %}
+    <div class="team-row">
+      <div class="team-container wow fadeInLeft delay-05s">
+        {% for member in site.team %}
+        <div class="team-member">
+          <img src="{{ member.profile_url }}" />
+          <div class="member-name">{{ member.name }}</div>
+          <div>{{ member.description }}</div>
         </div>
+        {% endfor %}
       </div>
     </div>
   </div>

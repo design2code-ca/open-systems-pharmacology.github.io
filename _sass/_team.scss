@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   padding: 0 32px;
+  margin-bottom: 64px;
 }
 
 .team-container {
@@ -16,12 +17,8 @@
 }
 
 .team-member {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 200px;
   text-align: center;
-  margin: 20px 20px;
+  margin: 20px;
   outline: none;
 }
 
