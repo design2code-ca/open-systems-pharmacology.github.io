@@ -37,8 +37,9 @@ $(document).ready(function() {
 
   $(".team-container").slick({
     infinite: true,
+    speed: 750,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
     responsive: [

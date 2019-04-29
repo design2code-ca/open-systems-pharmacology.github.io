@@ -15,7 +15,7 @@ tracking_id: UA-104123195-1
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
